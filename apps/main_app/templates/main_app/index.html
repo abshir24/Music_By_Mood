@@ -1,0 +1,17 @@
+<html> 
+    <head>
+        <link href="apiandjax.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).on(function(){
+                var src = $(this).attr('src')
+                $.get("http://pokeapi.co/api/v1/pokemon/"+$(this).attr('id')+"/", function(res) {
+                    
+                }, "json");
+            })
+        </script>
+    </head>
+    <body>
+       
+    </body>
+</html>
