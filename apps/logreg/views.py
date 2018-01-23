@@ -6,7 +6,7 @@ from .models import User
 # Create your views here.
 
 def login_page(request):
-    return render(request,'logreg/index.html')
+    return render(request,'logreg/login.html')
 
 def register_page(request):
     return render(request,'logreg/registration.html')
