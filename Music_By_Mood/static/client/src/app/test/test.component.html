@@ -1,3 +1,15 @@
-<p>
-  test works!
-</p>
+<h1>How do you feel?</h1>
+
+
+<select name="emotion" [(ngModel)]="emotion" #emotion= "ngModel" (change)="userEmotion()">
+  <option value="joy">joy</option>
+  <option value="love">love</option>
+  <option value="furious">furious</option>
+  <option value="guilt">guilt</option>
+  <option value="courageous">courageous</option>
+  <option value="energetic">energetic</option>
+  <option value="lonely">lonely</option>
+  <option value="jealous">jealous</option>
+  <option value="peaceful">peaceful</option>
+  <option value="silly">silly</option>
+</select>

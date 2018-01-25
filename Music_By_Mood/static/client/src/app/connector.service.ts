@@ -8,7 +8,7 @@ export class ConnectorService {
 
   constructor(private _http:Http) { }
  
-  getWeather(city:String){
+  getMusic(emotion:String){
     // return this._http.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=8a8b31bd9b0317ce097dd8807d29cbd0`)
     // .subscribe((res)=>{
     //   this.test(res.json())
